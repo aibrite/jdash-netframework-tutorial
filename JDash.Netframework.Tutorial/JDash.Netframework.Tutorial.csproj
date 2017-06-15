@@ -45,19 +45,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JDash.NetFramework.Api">
-      <HintPath>..\..\jdash-netframework\JDash.NetFramework.Api\bin\Debug\JDash.NetFramework.Api.dll</HintPath>
+    <Reference Include="JDash.NetFramework.Api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Api.1.0.1\lib\JDash.NetFramework.Api.dll</HintPath>
     </Reference>
-    <Reference Include="JDash.NetFramework.Models">
-      <HintPath>..\..\jdash-netframework\JDash.NetFramework.Api\bin\Debug\JDash.NetFramework.Models.dll</HintPath>
+    <Reference Include="JDash.NetFramework.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Provider.MySQL.1.0.1\lib\JDash.NetFramework.Models.dll</HintPath>
     </Reference>
-    <Reference Include="JDash.NetFramework.Provider.MySQL">
-      <HintPath>..\..\jdash-netframework\JDash.NetFramework.Provider.MySQL\bin\Debug\JDash.NetFramework.Provider.MySQL.dll</HintPath>
+    <Reference Include="JDash.NetFramework.Provider.MySQL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Provider.MySQL.1.0.1\lib\JDash.NetFramework.Provider.MySQL.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Provider.MySQL.1.0.1\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Provider.MySQL.1.0.1\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -67,6 +73,12 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Api.1.0.1\lib\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\JDash.NetFramework.Api.1.0.1\lib\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -121,9 +133,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.ApplicationInsights">
       <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
     </Reference>
