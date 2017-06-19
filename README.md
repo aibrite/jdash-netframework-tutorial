@@ -1,6 +1,6 @@
-# jdash-netframework-tutorial
+# JDash .Net Core Tutorial
 
-This repo is about integrating JDash .Net Core Framework. For more information, please see [JDash .Net Core](http://doc.jdash.io/backend/net-core-dev/).
+This repo is about integrating JDash .Net Core Framework into your application. For more information, please see [JDash .Net Core](http://doc.jdash.io/backend/net-core-dev/).
 
 # Javascript Dashboard Framework
 JDash provides fully customizable Javascript + Backend platform for adding end user designable dashboards into your web application.
