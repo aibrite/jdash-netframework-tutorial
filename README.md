@@ -1,4 +1,4 @@
-# JDash .Net Core Tutorial
+# JDash ASP .Net Tutorial
 
 This repo is about integrating JDash .Net Core Framework into your application. For more information, please see [JDash .Net Core](http://doc.jdash.io/backend/net-core-dev/).
 
